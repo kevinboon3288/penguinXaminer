@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PenguinXaminer", "PenguinXaminer.csproj", "{AE57A2CF-7150-4EC7-A108-918AC408728E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resources", "Resources\Resources.csproj", "{6EFC6CE6-0004-4691-8225-16F5EDF35844}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{354B31B7-AA7F-4000-8BAC-420FD63A8B9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlReaderModule", "Modules\XmlReaderModule\XmlReaderModule.csproj", "{05A58625-8646-4FA7-AF85-F109ABFA1CC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE57A2CF-7150-4EC7-A108-918AC408728E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE57A2CF-7150-4EC7-A108-918AC408728E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE57A2CF-7150-4EC7-A108-918AC408728E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE57A2CF-7150-4EC7-A108-918AC408728E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EFC6CE6-0004-4691-8225-16F5EDF35844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFC6CE6-0004-4691-8225-16F5EDF35844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFC6CE6-0004-4691-8225-16F5EDF35844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFC6CE6-0004-4691-8225-16F5EDF35844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A58625-8646-4FA7-AF85-F109ABFA1CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A58625-8646-4FA7-AF85-F109ABFA1CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A58625-8646-4FA7-AF85-F109ABFA1CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A58625-8646-4FA7-AF85-F109ABFA1CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05A58625-8646-4FA7-AF85-F109ABFA1CC2} = {354B31B7-AA7F-4000-8BAC-420FD63A8B9D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED841DC4-814D-483F-BF05-651B94A82560}
+	EndGlobalSection
+EndGlobal
